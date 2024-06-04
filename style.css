@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #343633;
+}
+
+.container {
+  height: 300px;
+  width: 300px;
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+.hand {
+  background-color: #ffffff;
+  height: 1px;
+  width: 100px;
+  transform: translateY(150px) translateX(50px);
+  position: relative;
+}
