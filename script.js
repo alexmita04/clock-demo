@@ -10,4 +10,8 @@ function secondHandler() {
   const seconds = date.getSeconds();
   const secondsDegrees = (seconds / 60) * 360 + 90;
   secondsHand.style.transform = `translateY(150px) translateX(50px) rotate(${secondsDegrees}deg)`;
+
+  const minutes = date.getMinutes();
+  const minutesDegrees = (minutes / 60) * 360 + 90;
+  minutesHand.style.transform = `translateY(150px) translateX(50px) rotate(${minutesDegrees}deg)`;
 }
