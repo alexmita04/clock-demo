@@ -26,8 +26,16 @@ body {
   height: 1px;
   width: 100px;
   transform: translateY(150px) translateX(50px);
-  position: relative;
+  position: absolute;
   transform-origin: 100%;
   transition: all 0.1s;
   transition-timing-function: linear(1.19 -13.48%, 1 100%);
+}
+
+.hand-hour {
+  height: 5px;
+}
+
+.hand-min {
+  height: 3px;
 }

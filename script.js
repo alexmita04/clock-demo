@@ -16,6 +16,7 @@ function secondHandler() {
   minutesHand.style.transform = `translateY(150px) translateX(50px) rotate(${minutesDegrees}deg)`;
 
   const hours = date.getHours();
-  const hoursDegrees = (hours / 24) * 360 + 9;
+  console.log(hours);
+  const hoursDegrees = (hours / 12) * 360 + 9;
   hoursHand.style.transform = `translateY(150px) translateX(50px) rotate(${hoursDegrees}deg)`;
 }
