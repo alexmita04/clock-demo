@@ -14,4 +14,8 @@ function secondHandler() {
   const minutes = date.getMinutes();
   const minutesDegrees = (minutes / 60) * 360 + 90;
   minutesHand.style.transform = `translateY(150px) translateX(50px) rotate(${minutesDegrees}deg)`;
+
+  const hours = date.getHours();
+  const hoursDegrees = (hours / 24) * 360 + 9;
+  hoursHand.style.transform = `translateY(150px) translateX(50px) rotate(${hoursDegrees}deg)`;
 }
