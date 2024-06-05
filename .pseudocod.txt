@@ -1,0 +1,5 @@
+Ca sa fac un ceas practic din ce mi aduc aminte de azi dimineata
+este ca trebuie sa fac un setInterval in care in fiecare secunda sa zicem
+ca incep cu functionalitatea de la secunde, in fiecare secunda sa adaug 
+pentru secundar o propietate din css si anume rotate().
+Mai intai trebuie sa gasesc o functie care mi da functia de secunda
